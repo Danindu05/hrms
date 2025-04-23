@@ -16,6 +16,6 @@ A web-based Student Management System developed using **Java EE (JSP + Servlets)
 - **Frontend:** HTML, CSS, JSP
 - **Backend:** Java Servlets, JDBC
 - **Database:** MySQL
-- **IDE:** NetBeans / VS Code
+- **IDE:** NetBeans
 
 
