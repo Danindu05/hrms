@@ -1,4 +1,4 @@
-/*
+
  * 🧑‍💼 HR Management System - Java Web Application
  *
  * A web-based HR Management System developed using Java EE (JSP + Servlets), 
@@ -18,4 +18,4 @@
  * - Backend: Java Servlets, JDBC
  * - Database: MySQL
  * - IDE: NetBeans
- */
+ 
