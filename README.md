@@ -1,21 +1,21 @@
-# 🎓 Student Management System - Java Web Application
-
-A web-based Student Management System developed using **Java EE (JSP + Servlets)**, **MySQL**, and **JDBC**.This system allows an admin to manage students, courses, and enrollments efficiently.
-
-## 🚀 Features
-
-- Admin Login Authentication
-- Add, View, Edit, and Delete Students
-- Manage Courses
-- Enroll Students in Courses
-- Track Student Grades & Attendance
-- Unique Feature:
-
-## 🛠️ Tech Stack
-
-- **Frontend:** HTML, CSS, JSP
-- **Backend:** Java Servlets, JDBC
-- **Database:** MySQL
-- **IDE:** NetBeans
-
-
+/*
+ * 🧑‍💼 HR Management System - Java Web Application
+ *
+ * A web-based HR Management System developed using Java EE (JSP + Servlets), 
+ * MySQL, and JDBC. This system allows HR administrators to manage employees, 
+ * departments, and roles efficiently.
+ *
+ * 🚀 Features:
+ * - Admin Login Authentication
+ * - Add, View, Edit, and Delete Employees
+ * - Manage Departments and Job Roles
+ * - Assign Employees to Departments
+ * - Track Employee Attendance & Performance
+ * - Unique Feature: [Specify here]
+ *
+ * 🛠️ Tech Stack:
+ * - Frontend: HTML, CSS, JSP
+ * - Backend: Java Servlets, JDBC
+ * - Database: MySQL
+ * - IDE: NetBeans
+ */
