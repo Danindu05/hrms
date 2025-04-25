@@ -11,7 +11,7 @@
  * - Manage Departments and Job Roles
  * - Assign Employees to Departments
  * - Track Employee Attendance & Performance
- * - Unique Feature: [Specify here]
+ * - Unique Feature:
  *
  * 🛠️ Tech Stack:
  * - Frontend: HTML, CSS, JSP
