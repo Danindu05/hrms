@@ -5,7 +5,7 @@ import model.User;
 
 public class UserDAO {
 
-    private final String jdbcURL = "jdbc:mysql://localhost:3307/hrmsdb";
+    private final String jdbcURL = "jdbc:mysql://localhost:3307/javanest";
     private final String dbUser = "root";        
     private final String dbPassword = "";      
 
