@@ -20,5 +20,7 @@
     <p><strong>Performance Score:</strong> <%= tracker.getPerformanceScore() %></p>
     <p><strong>Tasks Completed:</strong> <%= tracker.getTasksCompleted() %></p>
     <p><strong>Total Hours Worked:</strong> <%= tracker.getHoursWorked() %></p>
+    <script>
+        </script>
 </body>
 </html>
