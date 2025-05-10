@@ -5,9 +5,12 @@ import model.User;
 
 public class UserDAO {
 
+  
+
     private final String jdbcURL = "jdbc:mysql://localhost:3307/hrmsdb";
     private final String dbUser = "root";        // Change if you use a different user
     private final String dbPassword = "";        // Add password if your MySQL has one
+
 
     public User validateUser(String username, String password) {
         User user = null;
