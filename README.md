@@ -25,7 +25,7 @@ A  web-based **HR Management System** built using **Java EE technologies** inclu
 
 1. Clone the repository  
    ```sh
-   git clone https://github.com/yourusername/hrms.git
+   git clone https://github.com/Danindu05/hrms.git
 
 2. Import the project into Eclipse or NetBeans as a Java Web project
 
