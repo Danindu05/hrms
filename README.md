@@ -1,17 +1,51 @@
-# 💼 HR Management System - Java Web Application
 
-A web-based **HR Management System** developed using **Java EE (JSP + Servlets)**, **MySQL**, and **JDBC**. This system allows HR administrators to manage employees, departments, and roles efficiently.
+# Human Resource Management System (HRMS)
 
-## 🚀 Features
+A comprehensive web-based **HR Management System** built using **Java EE technologies** including Servlets, JSP, and JDBC. The system allows HR departments to manage employee data, attendance, leave requests, payroll, and target tracking efficiently.
 
-- Admin Login Authentication  
-- Add, View, Edit, and Delete Employees  
-- Track Employee Attendance & Performance  
-- Unique Feature:
+##  Key Features
 
-## 🛠️ Tech Stack
+-  **Employee Management** – Add, update, delete employee records  
+-  **Attendance Tracking** – Record and monitor daily attendance  
+-  **Leave Management** – Apply for leave, view leave status, HR approval  
+-  **Payroll Processing** – Calculate salaries, bonuses, deductions  
+-  **Target Tracker** – Monitor task progress, deadlines, and completion  
+-  **Dashboard Overview** – Weekly insights and system summaries  
 
-- **Frontend:** HTML, CSS, JSP  
-- **Backend:** Java Servlets, JDBC  
+## 🛠 Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap  
+- **Backend:** Java Servlets, JSP, JDBC  
 - **Database:** MySQL  
-- **IDE:** NetBeans
+- **Server:** Apache Tomcat  
+- **Architecture:** MVC (Model-View-Controller)
+
+
+## Setup Instructions
+
+1. Clone the repository  
+   ```sh
+   git clone https://github.com/yourusername/hrms.git
+
+2. Import the project into Eclipse or NetBeans as a Java Web project
+
+3. Set up your **MySQL database** using the provided `hrmsdb.sql` file
+
+4. Deploy the project to your Apache Tomcat server
+
+5. Start the Tomcat server and navigate to:  
+   ```sh
+   http://localhost:8080/HRMS/
+6. Login using default credentials
+   ```sh
+   admin / 1234
+
+## Database Schema
+
+- `employee` – stores employee details  
+- `attendance` – tracks daily attendance  
+- `leave_request` – manages leave applications  
+- `payroll` – handles salary info  
+- `ttracker` – linked to the Target Tracker module
+
+
