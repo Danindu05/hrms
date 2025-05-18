@@ -7,18 +7,18 @@ A  web-based **HR Management System** built using **Java EE technologies** inclu
 
 -  **Employee Management** – Add, update, delete employee records  
 -  **Attendance Tracking** – Record and monitor daily attendance  
--  **Leave Management** – Apply for leave, view leave status, HR approval  
+-  **Leave Management** – View leave status, HR approval  
 -  **Payroll Processing** – Calculate salaries, bonuses, deductions  
--  **Target Tracker** – Monitor task progress, deadlines, and completion  
+-  **Target Tracker** – Monitor productivity
 -  **Dashboard Overview** – Weekly insights and system summaries  
 
 ## 🛠 Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap  
+- **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Java Servlets, JSP, JDBC  
 - **Database:** MySQL  
 - **Server:** Apache Tomcat  
-- **Architecture:** MVC (Model-View-Controller)
+- **Architecture:** MVC
 
 
 ## Setup Instructions
