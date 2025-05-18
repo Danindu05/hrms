@@ -12,7 +12,7 @@ A  web-based **HR Management System** built using **Java EE technologies** inclu
 -  **Target Tracker** – Monitor productivity
 -  **Dashboard Overview** – Weekly insights and system summaries  
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Java Servlets, JSP, JDBC  
