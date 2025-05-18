@@ -20,6 +20,13 @@ A  web-based **HR Management System** built using **Java EE technologies** inclu
 - **Server:** Apache Tomcat  
 - **Architecture:** MVC
 
+## Database Schema
+
+- `employee` – stores employee details  
+- `attendance` – tracks daily attendance  
+- `leave_request` – manages leave applications  
+- `payroll` – handles salary info  
+- `ttracker` – linked to the Target Tracker module
 
 ## Setup Instructions
 
@@ -40,12 +47,6 @@ A  web-based **HR Management System** built using **Java EE technologies** inclu
    ```sh
    admin / 1234
 
-## Database Schema
 
-- `employee` – stores employee details  
-- `attendance` – tracks daily attendance  
-- `leave_request` – manages leave applications  
-- `payroll` – handles salary info  
-- `ttracker` – linked to the Target Tracker module
 
 
