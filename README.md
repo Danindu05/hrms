@@ -1,7 +1,7 @@
 
 # Human Resource Management System (HRMS)
 
-A comprehensive web-based **HR Management System** built using **Java EE technologies** including Servlets, JSP, and JDBC. The system allows HR departments to manage employee data, attendance, leave requests, payroll, and target tracking efficiently.
+A  web-based **HR Management System** built using **Java EE technologies** including Servlets, JSP, and JDBC. The system allows HR departments to manage employee data, attendance, leave requests, payroll, and target tracking efficiently.
 
 ##  Key Features
 
