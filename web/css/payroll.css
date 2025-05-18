@@ -1,0 +1,80 @@
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+        }
+
+        .main-content {
+            margin-left: 240px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .page-title {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #2c3e50;
+        }
+
+        .payroll-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+        }
+
+        .payroll-table th,
+        .payroll-table td {
+            padding: 14px 20px;
+            text-align: left;
+            font-size: 15px;
+        }
+
+        .payroll-table th {
+            background-color: #3498db;
+            color: #ffffff;
+            font-size: 16px;
+        }
+
+        .payroll-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .payroll-table tr:hover {
+            background-color: #eef5fb;
+        }
+
+        .payroll-table td strong {
+            color: #27ae60;
+            font-weight: 600;
+        }
+
+        .no-data {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            color: #888;
+        }
+
+        @media screen and (max-width: 768px) {
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+
+            .page-title {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            .payroll-table th,
+            .payroll-table td {
+                font-size: 14px;
+                padding: 12px 14px;
+            }
+        }

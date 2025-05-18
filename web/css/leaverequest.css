@@ -1,0 +1,151 @@
+
+ 
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+        }
+
+        .main-content {
+            margin-left: 240px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .page-title {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 16px 20px;
+            text-align: left;
+            vertical-align: middle;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            font-size: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f4f6f8;
+        }
+
+        tr:hover {
+            background-color: #ecf0f1;
+        }
+
+       
+        .approved-row {
+            background-color: #e0f8e0;
+        }
+
+        .pending-row {
+            background-color: #fff9db;
+        }
+
+        .rejected-row {
+            background-color: #fde0e0;
+        }
+
+        
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .action-buttons form {
+            margin: 0;
+        }
+
+        .action-buttons button {
+            padding: 8px 14px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            transition: 0.3s ease;
+        }
+
+        .approve-btn {
+            background-color: #27ae60;
+            color: white;
+        }
+
+        .reject-btn {
+            background-color: #e74c3c;
+            color: white;
+        }
+
+        .approve-btn:hover {
+            background-color: #219150;
+        }
+
+        .reject-btn:hover {
+            background-color: #c0392b;
+        }
+
+        .na-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: #bdc3c7;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 20px;
+        }
+
+        .no-data {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+
+        @media screen and (max-width: 768px) {
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+
+            .page-title {
+                font-size: 22px;
+                text-align: center;
+            }
+
+            th, td {
+                font-size: 14px;
+                padding: 12px;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .action-buttons button {
+                width: 100px;
+                font-size: 13px;
+                padding: 6px 10px;
+            }
+        }

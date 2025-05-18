@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: #333;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.dashboard-header {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    margin-bottom: 24px;
+    transition: all 0.3s ease;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-right {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.header-right span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.header-right i {
+    color: #3498db;
+    font-size: 14px;
+}
+
+
+
+.dashboard-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1 1 220px;
+    min-width: 220px;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card i {
+    font-size: 28px;
+    color: #3498db;
+}
+
+.stat-details h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.stat-details p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+
+.info-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: stretch;
+}
+.info-box {
+    flex: 1 1 30%;
+    background: white;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.info-box h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.chart-pie {
+    width: 100% !important;
+    aspect-ratio: 1 / 1;
+    max-width: 220px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    background: #fdfefe;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+#attendanceChart {
+    width: 100% !important;
+    aspect-ratio: 1 / 1;
+    max-width: 220px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    background: #fdfefe;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fdfefe;
+    border-radius: 12px;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+}
+
+#calendar div {
+    border-radius: 8px;
+    background: #f0f3f5;
+    font-weight: 600;
+    text-align: center;
+    color: #34495e;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.03);
+    padding: 6px;
+    font-size: 12px;
+    min-height: 30px;
+    box-sizing: border-box;
+}
+
+#calendar .today {
+    background-color: #16a085;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(22, 160, 133, 0.3);
+}
+
+#calendar div:hover {
+    background-color: #d6eaf8;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.top-performers-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-performers-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(26,188,156,0.12), rgba(26,188,156,0.05));
+    padding: 4px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2d3436;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    line-height: 1.2;
+    margin-bottom: 3px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.top-performers-list li:last-child {
+    margin-bottom: 0;
+}
+
+.top-performers-list li span {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+
+.top-performers-list li:hover {
+    background: rgba(26, 188, 156, 0.25);
+}
+
+.insight-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.insight-card {
+    flex: 1 1 48%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    min-width: 400px;
+}
+
+.insight-card h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #2c3e50;
+}
+
+.chart-wrapper {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.chart-wrapper canvas {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 12px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1024px) {
+    .info-box {
+        flex: 1 1 100%;
+    }
+
+    .insight-card {
+        flex: 1 1 100%;
+    }
+
+    .stat-card {
+        flex: 1 1 100%;
+    }
+
+    .insight-row {
+        flex-wrap: wrap;
+    }
+}
+
+
+       .stat-card {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            min-width: 200px;
+        }
+        .stat-card i {
+            font-size: 28px;
+            color: #3498db;
+        }
+        .stat-details h4 {
+            margin: 0;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        .stat-details p {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+        }

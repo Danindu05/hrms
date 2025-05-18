@@ -1,0 +1,70 @@
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .form-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .form-container h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+
+        .form-container h1 i {
+            margin-right: 10px;
+            color: #3498db;
+        }
+
+        form input[type="text"],
+        form select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0 18px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            font-size: 15px;
+            font-family: inherit;
+        }
+
+        form select:invalid {
+            color: #888;
+        }
+
+        form input[type="submit"] {
+            width: 100%;
+            padding: 14px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        @media screen and (max-width: 600px) {
+            .form-container {
+                padding: 30px 20px;
+            }
+        }
